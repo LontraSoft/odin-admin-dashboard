@@ -1,0 +1,96 @@
+/*------------------------------------------------------------------------*/
+/* A Modern CSS Reset - Josh Comeau                  */
+/* https://www.joshwcomeau.com/css/custom-css-reset/ */
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+/*------------------------------------------------------------------------*/
+
+:root {
+    --black: hsl(282, 31%, 6%);
+    --pale-green: hsl(159, 17%, 84%);
+    --light-purple: hsl(262, 70%, 68%);
+    --rose: hsl(331, 73%, 53%);
+    --yellow-green: hsl(99, 94%, 51%);
+    --yellow: hsl(71, 98%, 52%);
+    
+    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+body {
+    display: grid;
+    grid-template: 1fr 4fr / 1fr 3fr;
+    height: 100vh;
+    color: var(--black);
+}
+
+.sidebar {
+    grid-area: 1 / 1 / -1 / 2;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--yellow-green);
+}
+
+header {
+    grid-area: 1 / 2 / 2 / -1;
+    box-shadow: 0px 4px 4px 0px var(--black);
+}
+
+main {
+    grid-area: 2 / 2 / -1 / -1;
+}
