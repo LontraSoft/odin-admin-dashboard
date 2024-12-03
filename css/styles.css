@@ -126,6 +126,7 @@ h2, h3, h4 {
     row-gap: 20px;
     
     background-color: var(--sidebar-color);
+    padding: 10px;
     color: var(--text-color);
 }
 
