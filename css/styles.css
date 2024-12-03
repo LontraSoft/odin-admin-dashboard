@@ -253,6 +253,13 @@ header {
     color: var(--main-color);
     border: none;
 }
+
+.action-buttons button:hover {
+    box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+.action-buttons button:active {
+    transform: scale(0.9);
 }
 
 main {
