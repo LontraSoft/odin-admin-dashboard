@@ -319,4 +319,12 @@ main {
 .icon-btn:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+.sidebar a:hover .icon{
+    filter: var(--icon-recolor) drop-shadow(1px 1px 5px black);
+}
+
+.sidebar a:hover {
+    text-shadow: 2px 2px 1px black;
+}
 }
