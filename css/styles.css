@@ -118,15 +118,30 @@ h2, h3, h4 {
 
 .sidebar {
     grid-area: 1 / 1 / -1 / 2;
+    display: grid;
+    grid-template: 3rem 12rem 6rem 1fr/ 3rem 1fr;
+    row-gap: 20px;
+    
     background-color: var(--sidebar-color);
     color: var(--text-color);
 }
 
 .sidebar a {
     display: flex;
-    flex-direction: column;
     color: var(--text-color);
     font-family: var(--heading-font-family);
+}
+
+.logo {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.primary-nav {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.support-nav {
+    grid-area: 3 / 2 / 4 / 3;
 }
 }
 
