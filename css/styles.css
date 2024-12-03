@@ -166,14 +166,25 @@ header {
     justify-content: center;
     gap: 5px;
 }
+
 #profile-btn {
     width: 2rem;
     height: 2rem;
+    background: url(../images/otter.svg);
+    background-size: 150%;
+    background-position: 35% 50%;
+    border-radius: 50%;
+    border: none;
 }
 
 .profile-icon-container {
     width: 3rem;
     height: 3rem;
+    background: url(../images/otter.svg);
+    background-size: 150%;
+    background-position: 35% 50%;
+    border-radius: 50%;
+    display: inline-block;
     align-self: end;
 }
 
