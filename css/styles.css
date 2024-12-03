@@ -312,4 +312,11 @@ main {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
+    background: none;
+    border: none;
+}
+
+.icon-btn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
 }
