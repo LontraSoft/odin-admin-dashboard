@@ -249,6 +249,8 @@ header {
     width: 6rem;
     border-radius: 10px;
     align-self: end;
+    background-color: var(--button-color);
+    color: var(--main-color);
     border: none;
 }
 }
