@@ -267,8 +267,12 @@ main {
     grid-area: 2 / 2 / -1 / -1;
     display: grid;
     grid-template: 1fr 1fr / 3fr 1fr;
+    row-gap: 20px;
+    
     background-color: var(--main-color);
     color: var(--pale-green);
+    padding: 10px;
+    border-top: 3px solid var(--main-border-color)
 }
 
 .projects-section {
