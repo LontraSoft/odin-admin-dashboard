@@ -8,10 +8,6 @@
   </head>
   <body>
     <header>
-      <section class="header-top">
-	<button type="custom" class="icon-btn" id="notificationBtn"></button>
-	<button type="custom" class="icon-btn" id="profileBtn"></button>
-	<b id="profileName">Robin Lontra</b>
       <form id="searchbar">
 	<button type="submit" class="icon-btn" id="search-btn">
 	  <img src="./images/magnify.svg" class="icon" id="search-icon">
@@ -21,18 +17,26 @@
 	       id="search_input"
 	       placeholder="Search...">
       </form>
+      <section class="top-right">
+	<button type="custom" class="icon-btn" id="notification-btn">
+	  <img src="./images/bell-ring-outline.svg"
+	       class="icon" alt="notification-icon">
+	</button>
+	<button type="custom" class="icon-btn" id="profile-btn">
+	</button>
+	<b id="profile-name">Robin Lontra</b>
       </section>
-      <section class="header-bottom">
-	<img class="profile-icon" src="#" alt="your profile icon">
+      <section class="profile-greeting">
+	<div class="profile-icon-container" title="your profile icon"></div>
 	<section class="greeting">
 	  <div class="greeting-text">Hello there,</div>
 	  <h2 class="profile-info">Robin Lontra (@LontraSoft)</h2>
 	</section>
-	<section class="action-buttons">
-	  <button type="custom" class="action-button" id="new-btn">New</button>
-	  <button type="custom" class="action-button" id="upload-btn">Upload</button>
-	  <button type="custom" class="action-button" id="share-btn">Share</button>
-	</section>
+      </section>
+      <section class="action-buttons">
+	<button type="custom" class="action-button" id="new-btn">New</button>
+	<button type="custom" class="action-button" id="upload-btn">Upload</button>
+	<button type="custom" class="action-button" id="share-btn">Share</button>
       </section>
     </header>
     <section class="sidebar">
