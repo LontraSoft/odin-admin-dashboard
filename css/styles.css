@@ -108,7 +108,9 @@ body {
     grid-template: 1fr 4fr / 15rem 3fr;
     height: 100vh;
     color: var(--black);
-    line-height: 1.2rem;
+    line-height: 1rem;
+}
+
 h2, h3, h4 {
     font-family: var(--heading-font-family);
     font-weight: bold;
